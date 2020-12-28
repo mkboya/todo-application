@@ -1,0 +1,97 @@
+.App {
+  padding: 20px;
+}
+
+.custom-input {
+  height: 40px;
+  width: 300px;
+  max-width: 90vw;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.custom-text-area {
+  height: 100px;
+  width: 300px;
+  max-width: 90vw;
+  margin-top: 10px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding-left: 10px;
+  resize: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  outline: none;
+}
+
+.add-task-btn {
+  background-color: #ff7d7d;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  word-break: break-all;
+}
+
+.taskNameHeader{
+    margin: 5px;
+    margin-left: 0px;
+    font-weight: 700;
+}
+
+.taskDescriptionHeader{
+    font-size: 18px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.form-toggler{
+    height: 30px;
+}
+
+.header-container{
+    display: flex;
+    width: 70vw;
+    max-width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.form-container{
+    margin-left: 15px;
+}
+
+.task-status-toggler{
+    float: right;
+    height: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card-completed{
+    opacity: 0.4;
+    /* text-decoration: line-through; */
+}
